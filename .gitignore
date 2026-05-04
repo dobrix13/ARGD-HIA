@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# pytest / testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model checkpoints (large binary files — commit selectively)
+checkpoints/*.pt
+checkpoints/*.pth
+checkpoints/*.ckpt
+
+# Generated outputs (reproducible from scripts)
+visualizations/*.png
+metrics/*.json
+
+# Training logs
+*.log
